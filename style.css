@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    margin-top: 250px;
+    font-family: Arial;
+    display:flex;
+    justify-content:center;
+    /* background-color: #c2f4f9; */
+    background: linear-gradient(to right,#f09bdc,#a1e6c5);
+}
+
+.container {
+    background: linear-gradient(to right,#d5bee3,#9ad1b6);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.srt{
+    background-color:rgb(117, 240, 117);
+}
+.pau{
+    background-color: rgb(234, 185, 95);
+}
+.reset{
+    background-color:rgb(243, 75, 75);
+}
+button:hover {
+    background-color: lightgray;
+    transition:transform 0.4s;
+}
